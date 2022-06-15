@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    float:left;
+    font-size: 180%;
+    margin-left: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu {
+    float:right;
+}
+
+#menu li {
+    float:right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+/* Hero Image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    background: url(../images/buddha-statue.jpg) center center no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+/* Who We Are Section */
+
+#who-we-are {
+    height: 450px;
+}
+
+.left-about-heading {
+    float: left;
+    width: 600px;
+    padding-left: 50px;
+    padding-top: 150px;
+    vertical-align: middle;
+}
+
+#who-we-are-image {
+    background: url(../images/buddha-statue.jpg) no-repeat center center;
+    height: 100%;
+    width: 50%;
+
+    float: right;
+}
+
+/* What we do section */
+
+#what-we-do {
+    background: url(../images/pexels-photo-1312755.jpeg) no-repeat center left;
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#what-we-do h2 {
+    text-align: center;
+    position: relative;
+    top:10px;
+
+    background-color: rgba(220,220,220,0.7);
+}
+
+.left-about {
+    background-color: rgba(220,220,220,0.7);
+    padding: 5px;
+    width: 25%;
+    float: left;
+    text-align: center;
+
+    position: relative;
+    left: 50px;
+    top: 75px;
+}
+
+.right-about {
+    background-color: rgba(220,220,220,0.7);
+    padding: 5px;
+    width: 25%;
+    float: right;
+    text-align: center;
+
+    position: relative;
+    right: 50px;
+}
+
+.center-about {
+    background-color: rgba(220,220,220,0.7);
+    padding: 5px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+
+    position: relative;
+    top: 75px;
+}
+
+/* When we meet */
+
+#when-we-meet {
+    height: 300px;
+}
+
+.right-about-heading {
+    text-align: right;
+    float: right;
+    width: 600px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+
+#when-we-meet-image {
+    background: url(../images/buddha-statue.jpg) no-repeat center center;
+    height: 100%;
+    width: 50%;
+
+    float: left;
+}
+
+/* Where to find us */
+
+#where-to-find-us {
+    height: 300px;
+}
+
+#map {
+    width: 50%;
+    height: 300px;
+    float: right;
+    bottom: 0px;
+}
+
+
+/* footer */
+
+/* footer */
+
+footer {
+    height: 75px;
+}
+
+.social-networks {
+    text-align: right;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 10px;
+    color: #3a3a3a;
+}
+
+
+
+/* What is Buddhism? */
+
+.left-about-heading2 {
+    float: left;
+    width: 700px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.right-about-heading2 {
+    text-align: right;
+    float: right;
+    width: 700px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+#hero-outer2 {
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
