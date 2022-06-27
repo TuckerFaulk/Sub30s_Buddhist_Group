@@ -6,14 +6,20 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-color: #F8FFFF;
+}
+
+h1, h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
 }
 
 header {
     position: fixed;
-    background-color: white;
+    background-color: #FFFFF8;
     width: 100%;
     z-index: 1;
 }
@@ -41,12 +47,14 @@ header a {
     float:right;
     list-style-type: none;
     margin-right: 30px;
+    font-family: 'Ubuntu', cursive;
+    font-size: 150%;
 }
 
 /* Hero Image */
 
 #hero-outer {
-    height: 600px;
+    height: auto;
     width: 100%;
     overflow: hidden;
 
@@ -54,7 +62,7 @@ header a {
 }
 
 #hero-image {
-    background: url(../images/buddha-statue.jpg) center center no-repeat;
+    background: url(../images/pexels-suraphat-nueaon-937465.jpg) center center no-repeat;
     width: 100%;
     height: 600px;
 }
@@ -73,8 +81,15 @@ header a {
     vertical-align: middle;
 }
 
-#who-we-are-image {
-    background: url(../images/buddha-statue.jpg) no-repeat center center;
+/* #who-we-are-image {
+    background: url(../images/woman-meditating.jpg) no-repeat center center;
+    height: 100%;
+    width: 50%;
+
+    float: right;
+} */
+
+img {
     height: 100%;
     width: 50%;
 
@@ -135,7 +150,7 @@ header a {
 /* When we meet */
 
 #when-we-meet {
-    height: 300px;
+    height: 450px;
 }
 
 .right-about-heading {
@@ -147,7 +162,7 @@ header a {
 }
 
 #when-we-meet-image {
-    background: url(../images/buddha-statue.jpg) no-repeat center center;
+    background: url(../images/pexels-nicollazzi-xiong-668353.jpg) no-repeat center center;
     height: 100%;
     width: 50%;
 
@@ -157,7 +172,7 @@ header a {
 /* Where to find us */
 
 #where-to-find-us {
-    height: 300px;
+    height: 450px;
 }
 
 #map {
